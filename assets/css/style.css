@@ -1,0 +1,141 @@
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.flexcontainer{
+    display: flex;
+    flex-direction: row;
+    
+    
+background-color: white;
+margin-left: 0%;
+}
+
+
+.contactos{
+    
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 25%;
+    
+}
+
+/* ventanas nuevo chat*/
+
+.ventana_chat{
+    display: flex;
+    flex-direction: row;
+    border: gray 1px solid;
+    height: 4.5rem;
+    justify-content: center;
+    align-items: center;
+    ;
+    
+   
+}
+
+#maria{
+    display: flex;
+    gap: 2rem;
+}
+
+
+button{
+    border-color: #A491D2;
+    height: 2.5rem;
+    width: 9rem;
+
+}
+
+#boton_nuevochat{
+    background-color: #A491D2;
+    color: white;
+}
+
+.ventana_contenido{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.fotosperfil{
+    width: 40px;    
+    height: 40px;
+    border-radius: 50%;
+
+
+}
+
+.ventana_chat_cuerpo{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    
+}
+
+h3{
+    font-size: 1.em;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+}
+
+
+.contenedor_icons{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* principal section */
+.principal{
+
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 75%;
+    
+    align-items: center;
+    justify-content: center;
+    background: color #e8ebe4; 
+
+
+    
+  
+
+}
+
+
+.manos{
+    
+
+}
+
+.contenedorlogo{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+#manopla{
+    width: 200px;
+    height: 200px;
+
+}
+
+
+.textomano{ display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1{
+    margin-block-start: 10px;
+    margin-block-end: 5px;
+}
+
+p{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
